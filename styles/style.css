@@ -50,10 +50,10 @@ a{
 .clearfix {
     overflow: auto;
 }
-.clearfix::after {
-	content: '';
-	display: block;
-	clear: both;
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 body{
 	background: url(../images/bg.jpg) no-repeat center top fixed;
@@ -167,13 +167,180 @@ footer {
 }
 .footer-menu div div:hover{
 	background:#D89DB5;
-	
 }
 .footer-menu div div span{
 	padding-top:50px;
 	display:block;
 	color:black;
 }
+.about_main_float span img{
+    height:450px;
+}
+.about_main_float p{
+    text-indent: 20px;
+
+}
+.my_site1 img{
+    height:300px;
+}
+.my_site_float-left{
+    float: left;
+    width: 50%;
+    color:white;
+    text-align:justify;
+}
+.my_site_float-left a{
+    float:left;
+    margin-top: 20px;
+}
+.my_site_float-right{
+    float: right;
+    width: 50%;
+}
+.my_site_float-right img{
+    float: right;
+}
+.contacts {
+    width: 100%;
+    color:white;
+    margin: 0 100px;
+    padding: 50px;
+    min-height: calc(100vh - 320px - 100px);
+    text-align: center;
+}
+.vk{
+    margin-top: 20px;
+}
+.vk a{
+    color:#4A76A8;
+    float: left;
+}
+.skype{
+     margin-top: 20px;
+ }
+.skype a{
+    color:#00B1F4;
+    float: left;
+}
+.facebook{
+    margin-top: 20px;
+}
+.facebook a{
+    color:#4267B2;
+    float: left;
+}
+.mail{
+    margin-top: 20px;
+}
+.mail a{
+    color:#D64937;
+    float: left;
+}
+.phone{
+    margin-top: 20px;
+}
+.phone a{
+    color:cornflowerblue;
+    float: left;
+}
+.grid{
+	display:grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(5, 1fr);
+	grid-column-gap:20px;
+	grid-row-gap:20px;
+	padding: 150px 100px;
+	min-height: calc(100vh - 320px - 100px);
+
+}
+.grid-item{
+	min-height: 250px;
+
+	display: grid;
+	justify-items: center;
+	align-items:center;
+
+}
+.grid-item a{
+	background:linear-gradient(to right, yellow 25%, white 45%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	transition: 0.5s;
+	transform: scale(1.0);
+}
+.grid-item a:hover{
+	font-size:22px;
+	background:linear-gradient(to right, white 25%, yellow 45%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.grid-item1{
+	background: url("../images/gallery/img1.jpg") 100% 100% no-repeat;
+	background-size: cover;
+}
+.grid-item2{
+	background: url("../images/gallery/img2.jpg") 100% 100% no-repeat;
+	background-size: cover;
+}
+.grid-item3{
+	background: url("../images/gallery/img3.jpg") 100% 100% no-repeat;
+	background-size: cover;
+}
+.grid-item4{
+	background: url("../images/gallery/img4.jpg") 100% 100% no-repeat;
+	background-size: cover;
+}
+.grid-item5{
+	background: url("../images/gallery/img5.jpg") 100% 100% no-repeat;
+	background-size: cover;
+}
+.grid-item6{
+	background: url("../images/gallery/img6.jpg") 100% 100% no-repeat;
+	background-size: cover;
+}
+.grid-item7{
+	background: url("../images/gallery/img7.jpg") 100% 100% no-repeat;
+	background-size: cover;
+}
+.grid-item8{
+	background: url("../images/gallery/img8.jpg") 100% 100% no-repeat;
+	background-size: cover;
+}
+.grid-item9{
+	background: url("../images/gallery/img9.jpg") 100% 100% no-repeat;
+	background-size: cover;
+}
+.grid-item10{
+	background: url("../images/gallery/img10.jpg") 100% 100% no-repeat;
+	background-size: cover;
+}
+.grid-item11 {
+	background: url("../images/gallery/img11.jpg") 100% 100% no-repeat;
+	background-size: cover;
+}
+.grid-item12{
+	background: url("../images/gallery/img12.jpg") 100% 100% no-repeat;
+	background-size: cover;
+}
+.grid-item13{
+	background: url("../images/gallery/img13.jpg") 100% 100% no-repeat;
+	background-size: cover;
+}
+.grid-item14{
+	background: url("../images/gallery/img14.jpg") 100% 100% no-repeat;
+	background-size: cover;
+}
+.grid-item15{
+	background: url("../images/gallery/img15.jpg") 100% 100% no-repeat;
+	background-size: cover;
+}
+.grid-item16{
+	background: url("../images/gallery/img16.jpg") 100% 100% no-repeat;
+	background-size: cover;
+}
+
+
+
 
 
 
